@@ -36,7 +36,7 @@ export class UserComponent implements AfterViewInit {
   displayedColumns: string[] = ['username', 'name', 'email', 'status', 'role', 'action'];
 
   updateuser(code: any) {
-    this.OpenDialog('1000ms', '600ms', code);
+    this.OpenDialog('100ms', '60ms', code);
   }
 
   OpenDialog(enteranimation: any, exitanimation: any, code: string) {
