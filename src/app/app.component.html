@@ -314,8 +314,11 @@
   <a *ngIf="isadmin" routerLink="/user">User</a>
   <a routerLink="/customer">Customer</a>
     <div class="spacer"></div>
-    
-    <a routerLink="/login">Logout</a>
+
+    <a routerLink="/login">
+    <button mat-raised-button color="warn"><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="close"></mat-icon> Logout
+    </button>
+    </a>
 </div>
 
 <div class="content" style="width: 100%;display: block;" role="main">

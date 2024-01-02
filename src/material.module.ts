@@ -9,11 +9,16 @@ import {MatSortModule} from "@angular/material/sort"
 import {MatDialogModule} from "@angular/material/dialog"
 import {MatSelectModule} from "@angular/material/select"
 import {MatCheckboxModule} from "@angular/material/checkbox"
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatIconModule} from '@angular/material/icon';
+
 
 
 @NgModule({
     exports: [
+        MatIconModule,
         MatInputModule,
+        MatFormFieldModule,
         MatCardModule,
         MatRadioModule,
         MatButtonModule,
